@@ -1,0 +1,39 @@
+---
+layout: main.tpl
+college: lcf
+section: channel
+title: LCF Channel - Live Stream
+template: true
+---
+
+<div class="content-wrapper">
+	<div class="row">
+		<nav class="sidebar">
+			{% include _lcf_navigation.html %}		
+		</nav>	
+
+		<div role="main" class="content">
+			<div class="row">
+				<div class="l-content-full-width  block  __media">
+					<h2>LCF Masterclass: When is Fashion Fit for the Gallery?</h2>
+					<div class="dark-gray-bg centered">
+						<iframe src='http://live.3xscreen.com/lcf/embed/' width='640' height='360' frameborder='0'></iframe>
+					</div>
+					<div class="caption"><span>'It Melts', a fashion film commissioned to celebrate the launch of <a href="http://www.pigeonsandpeacocks.com/">Pigeons & Peacocks</a> Issue 6: The Catalyst.<br/>
+Written and directed by <a href="http://www.arts.ac.uk/fashion/courses/undergraduate/ba-fashion-media-part-time/">BA (Hons) Fashion Media (Part time)</a> student Gsus Lopez, winner of the 2012 ASVOFF Grand Prix.</span></div>
+				</div>
+			</div>
+			
+			<!-- media block -->
+			{% include components/_media-block-2-up.html %}
+			
+			<div class="row">
+			  <div class="l-content-full-width  view-all">
+			    <p><a href="{{ site.url }}content/colleges/lcf/people/teaching-staff/" class="button-link" title="View all"><span class="hide-descriptive-text">Follow this link to go to more information about</span>View all</a></p>
+			  </div>
+			</div>
+			
+		</div> <!-- end main-content -->	
+
+	</div><!-- .row -->
+</div><!-- .content-wrapper -->
